@@ -1,0 +1,45 @@
+html {
+	background: #333;
+	color: #EEE;
+	width: 100vw;
+	height: 100vh;
+}
+
+body {
+	margin: 0;
+}
+
+.back-to-top {
+	z-index: 20;
+	position: fixed;
+	background: blue;
+	bottom: 10px;
+	right: 10px;
+	border: 2px outset #EEE;
+	padding: 8px;
+	border-radius: 32px;
+}
+
+.flex-container {
+	background: #000F0F;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+	width: 100%;
+	background: linear-gradient(#444, #111);
+	border-bottom: 2px solid #EEE;
+	padding: 6px;
+	height: 5vh;
+}
+
+.header, .flex-container {
+  flex-wrap: wrap;
+}
+
+.header-img {
+	border-radius: 10px;
+	border: 2px outset #EEE;
+}
