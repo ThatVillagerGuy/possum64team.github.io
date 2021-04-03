@@ -1,7 +1,7 @@
 html {
 	background: url('/background.jpg') no-repeat center center fixed;
 	background-size: cover;
-	color: rgba(221, 218, 214, 50);
+	color: #EEE;
 	width: 100vw;
 	height: 100vh;
 }
@@ -23,7 +23,7 @@ body {
 }
 
 .flex-container {
-	background: #000F0F30;
+	background: #000F0FA0;
 	display: flex;
 	flex-direction: column;
 }
