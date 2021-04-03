@@ -1,5 +1,6 @@
 html {
-	background: #333;
+	background: url('/background.jpg') no-repeat center center fixed;
+	background-size: cover;
 	color: #EEE;
 	width: 100vw;
 	height: 100vh;
@@ -23,7 +24,7 @@ body {
 .flex-container {
 	background: #000F0F;
 	display: flex;
-	flex-direction: column;	
+	flex-direction: column;
 }
 
 .header {
