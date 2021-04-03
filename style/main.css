@@ -22,6 +22,8 @@ body {
 
 .flex-container {
 	background: #000F0F;
+	display: flex;
+	flex-direction: row;	
 }
 
 .header {
@@ -29,6 +31,7 @@ body {
   top: 0;
   z-index: 10;
 	width: 100%;
+	flex-direction:row;
 	background: linear-gradient(#444, #111);
 	border-bottom: 2px solid #EEE;
 	padding: 6px;
