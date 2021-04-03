@@ -23,7 +23,7 @@ body {
 .flex-container {
 	background: #000F0F;
 	display: flex;
-	flex-direction: row;	
+	flex-direction: column;	
 }
 
 .header {
