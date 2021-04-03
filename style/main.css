@@ -11,6 +11,10 @@ body {
 	font-family: sans-serif;
 }
 
+.main-content{
+	opacity: 0.3;
+}
+
 .back-to-top {
 	z-index: 20;
 	position: fixed;
