@@ -25,6 +25,22 @@ body {
 	border-radius: 32px;
 }
 
+.back-to-top:hover {
+	animation-name: bounce;
+	animation-duration: 0.5s;
+	animation-direction: normal;
+	animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+	0%, 100% {
+		transform: translate(0, 0px;)
+	}
+	50% {
+		transform: translate(0, -5px)
+	}
+}
+
 .flex-container {
 	background: #000F0FA0;
 	display: flex;
